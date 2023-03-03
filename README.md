@@ -2,7 +2,7 @@
 
 > The Simulation Framework for automated battery recycling robot.
 
-This depository contains source code for ABatRe-Sim, including robots, battery models, perceptions.
+This depository contains source code for ABatRe-Sim, including robots, models, perceptions.
 
 ![](header.png)
 
