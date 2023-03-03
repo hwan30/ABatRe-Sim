@@ -1,0 +1,8 @@
+prefix=/home/wanghu26/battery_ws/install
+
+Name: unbolting_example
+Description: Description of unbolting_example
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

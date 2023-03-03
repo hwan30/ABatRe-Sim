@@ -1,0 +1,8 @@
+prefix=/home/wanghu26/battery_ws/devel
+
+Name: ur_driver
+Description: Description of ur_driver
+Version: 1.2.7
+Cflags: -I/home/wanghu26/battery_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: dynamic_reconfigure

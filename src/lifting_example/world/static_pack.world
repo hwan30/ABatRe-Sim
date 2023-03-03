@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+
+<sdf version="1.6">
+  <world name="Pack6">
+
+		<!-- A global light source -->
+		<include>
+			<uri>model://sun</uri>
+		</include>
+
+		<!-- A ground plane -->
+		<include>
+			<uri>model://ground_plane</uri>
+		</include>
+
+        <!-- Our custom model -->
+	<!-- Our pack bottom model -->
+		<include>
+			<uri>/home/wanghu26/battery_ws/src/battery_model/model_editor_models/HW_Battery_Pack_Bottom_f_half</uri>
+			<pose>0.5 1 0.352 0 0 0</pose>
+		</include>
+        <!-- pack module models -->
+		<include>
+			<uri>/home/wanghu26/battery_ws/src/battery_model/model_editor_models/HW_battery_module_sc_v_half</uri>
+			<pose>0.308 0.775 0.40 0 0 0</pose>
+		</include>
+		<include>
+			<uri>/home/wanghu26/battery_ws/src/battery_model/model_editor_models/HW_battery_module_sc_v_1_half</uri>
+			<pose>0.308 1.078 0.40 0 0 0</pose>
+		</include>
+		<include>
+			<uri>/home/wanghu26/battery_ws/src/battery_model/model_editor_models/HW_battery_module_sc_v_2_half</uri>
+			<pose>0.71 1.078 0.40 0 0 0</pose>
+		</include>
+		<include>
+			<uri>/home/wanghu26/battery_ws/src/battery_model/model_editor_models/HW_battery_module_sc_v_3_half</uri>
+			<pose>0.71 0.775 0.40 0 0 0</pose>
+		</include>
+
+
+
+       <!-- bolt models -->
+	
+		<include>
+			<uri>/home/wanghu26/battery_ws/src/battery_model/model_editor_models/HW_tap_bolt_sc_f_0</uri>
+			<pose>-0.155 0.13 0 0 0 0</pose>
+		</include>	
+		<include>
+			<uri>/home/wanghu26/battery_ws/src/battery_model/model_editor_models/HW_tap_bolt_sc_f_1</uri>
+			<pose>-0.07 0.2810 0 0 0 0</pose>
+		</include>
+		<include>
+			<uri>/home/wanghu26/battery_ws/src/battery_model/model_editor_models/HW_tap_bolt_sc_f_2</uri>
+			<pose>0.01 -0.145 0 0 0 0</pose>
+		</include>
+		<include>
+			<uri>/home/wanghu26/battery_ws/src/battery_model/model_editor_models/HW_tap_bolt_sc_f_3</uri>
+			<pose>-0.085 0.255 0 0 0 0</pose>
+		</include>
+
+		<include>
+			<uri>/home/wanghu26/battery_ws/src/battery_model/model_editor_models/HW_tap_bolt_sc_f_4</uri>
+			<pose>-0.085 0.1810 0 0 0 0</pose>
+		</include>
+		<include>
+			<uri>/home/wanghu26/battery_ws/src/battery_model/model_editor_models/HW_tap_bolt_sc_f_5</uri>
+			<pose>-0.068 0.200 0 0 0 0</pose>
+		</include>
+        
+
+        <!-- cable models -->	
+		<include>
+			<uri>/home/wanghu26/battery_ws/src/battery_model/model_editor_models/HW_HV_cable_sc_f</uri>
+			<pose>0 1.128 0.01 0 0 0 </pose>
+		</include>
+		<include>
+			<uri>/home/wanghu26/battery_ws/src/battery_model/model_editor_models/HW_HV_cable_sc_f_1</uri>
+			<pose>0.0 0.826 0.01 0 0 0</pose>
+		</include>
+	</world>
+</sdf>
+
+

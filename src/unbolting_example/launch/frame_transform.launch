@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<launch> 
+    <!-- Start Nodes -->
+    <node    name="frame_camera"    pkg="unbolting_example"    type="camera_frame_xyz.py"    output="screen"/>
+    <node    name="frame_world"    pkg="unbolting_example"    type="world_frame_xyz.py"    output="screen"/>
+
+</launch>

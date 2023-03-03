@@ -1,0 +1,8 @@
+prefix=/home/wanghu26/battery_ws/devel
+
+Name: gazebo_grasp_plugin
+Description: Description of gazebo_grasp_plugin
+Version: 1.0.1
+Cflags: -I/home/wanghu26/battery_ws/src/gazebo_grasp_plugin/include
+Libs: -L${prefix}/lib -lgazebo_grasp_fix
+Requires: gazebo_ros geometry_msgs roscpp std_msgs

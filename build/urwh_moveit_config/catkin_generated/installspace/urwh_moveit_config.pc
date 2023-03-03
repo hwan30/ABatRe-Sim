@@ -1,0 +1,8 @@
+prefix=/home/wanghu26/battery_ws/install
+
+Name: urwh_moveit_config
+Description: Description of urwh_moveit_config
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

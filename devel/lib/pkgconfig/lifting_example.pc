@@ -1,0 +1,8 @@
+prefix=/home/wanghu26/battery_ws/devel
+
+Name: lifting_example
+Description: Description of lifting_example
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: message_runtime

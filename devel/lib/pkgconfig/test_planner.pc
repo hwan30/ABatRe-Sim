@@ -1,0 +1,8 @@
+prefix=/home/wanghu26/battery_ws/devel
+
+Name: test_planner
+Description: Description of test_planner
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

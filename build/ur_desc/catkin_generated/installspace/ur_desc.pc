@@ -1,0 +1,8 @@
+prefix=/home/wanghu26/battery_ws/install
+
+Name: ur_desc
+Description: Description of ur_desc
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
