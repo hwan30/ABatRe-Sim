@@ -14,7 +14,9 @@ Install dependency
 ```sh
 rosdep install -r --from-path src --ignore-src
 ```
-Make
+Delete the Devel and Build folder
+
+Then Make
 ```sh
 catkin_make
 ```
@@ -22,16 +24,20 @@ catkin_make
 The perception framework is located in this repository.Please create a seperate workspace and follow the instruction there to install. https://github.com/hwan30/Object-Detetion-ABatRe-Sim-.git
 
 ## Usage example
-Battery recycle robot user guide:
+Battery recycling robot user guide:
 
-There are two launch files, one with finger gripper for picking bolts and cables, one with vacuum gripper for modules.run the second launch file when bolts and cable picking are finished.
+There are two launch files, one with finger gripper for picking bolts and cables, one with vacuum gripper for modules.Only run the second launch file when bolts and cable picking are finished.
+
+To run the finger gripper environment to remove bolts and cables:
 
 Roslaunch unbolting_example main_unbolting.launch 
+
+To run the vaccum gripper environment to remove modules:
 
 Roslaunch lifting_example ur10_remove.launch
 
 
-Then launch the vision node to broadcast pixel u,v
+Then launch the vision node to broadcast pixel u,v. Follow the rosrun instructions on the vision node github repo.
 
 
 Then start transform node u,v-> x,y,z
@@ -39,7 +45,7 @@ Then start transform node u,v-> x,y,z
 Roslaunch unbolting_example frame_transform.launch 
 
 
-Then, pick scripts for bolts and cables, and pick scripts for module.
+Then, run pick scripts for bolts and cables, and run pick scripts for module.
 
 Rosrun unbolting_example pick_all.py
 
